@@ -1,4 +1,4 @@
-ZDM-test
+4ZeroBox to Zerynth Device Manager over Wifi.
 ========
 
 In this tutorial, we will demonstrate how to connect 4ZeroBox to Zerynth Device Manager over Wifi.
