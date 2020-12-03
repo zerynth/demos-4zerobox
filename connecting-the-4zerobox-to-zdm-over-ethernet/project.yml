@@ -1,0 +1,47 @@
+# This file contains advanced configuration options for a Zerynth project
+# 
+# Under the section "config" a list of options can be specified and activated;
+# such options change the way Python and C modules are compiled.
+#
+# If you are using "ztc project" commands to compile, uplink, etc... please
+# fill the sections target and specs with the required information
+#
+
+target: null
+specs:
+    port: null
+    probe: null
+    disk: null
+vm:
+    uid: null
+    dev_uid: null
+    rtos: null
+    version: null
+    features: []
+config:
+    # enable ethernet connection
+    NETWORK_ETH: true
+    # enable wifi connection
+    NETWORK_WIFI: null
+    # enable gsm connection
+    NETWORK_GSM: null
+    # enable ADC 0-10v/4-20mA peripheral
+    ADC_010_420: null
+    # enable ADC resistive peripheral
+    ADC_RESISTIVE: null
+    # enable ADC current peripheral
+    ADC_CURRENT: null
+    # enable can peripheral
+    CAN_ENABLE: null
+    # enable RS485 peripheral
+    RS485_ENABLE: null
+    # enable RS232 peripheral
+    RS232_ENABLE: null
+    # enable SD Card
+    SDCARD_ENABLED: null
+    # enable DEBUG for fourzerobox
+    DEBUG_FZB: null
+
+
+
+
